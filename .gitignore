@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # -------------------------
 # Node Modules
 # -------------------------
@@ -16,11 +17,87 @@ node_modules/
 # Logs
 # -------------------------
 logs/
+=======
+# ------------------------------
+# Python
+# ------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.env/
+env/
+.venv/
+
+# Environment Variables (IMPORTANT)
+.env
+
+# ------------------------------
+# VS Code
+# ------------------------------
+.vscode/
+
+# ------------------------------
+# Logs
+# ------------------------------
+*.log
+
+# ------------------------------
+# OS Files
+# ------------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+# ngrok
+# ------------------------------
+ngrok.exe
+ngrok.yml
+
+# ------------------------------
+# Test / temp files
+# ------------------------------
+*.sqlite3
+*.db
+*.txt
+
+# ------------------------------
+# Python cache folders
+# ------------------------------
+.pytest_cache/
+.mypy_cache/
+
+# ------------------------------
+# Coverage reports
+# ------------------------------
+htmlcov/
+.coverage
+.coverage.*
+
+# ------------------------------
+# Build / dist
+# ------------------------------
+build/
+dist/
+*.egg-info/
+# Node modules
+node_modules/
+
+# Environment variables (VERY IMPORTANT)
+.env
+
+
+# Logs
+logs
+>>>>>>> 6e21b876fea1da13fa475816ef5b9070510f42ac
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+<<<<<<< HEAD
 # -------------------------
 # Runtime Data
 # -------------------------
@@ -62,3 +139,18 @@ ngrok.exe
 # -------------------------
 trash/
 *.txt
+=======
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# ngrok temp files
+.ngrok2/
+
+
+# Audio generated files
+public/audio/*.mp3
+>>>>>>> 6e21b876fea1da13fa475816ef5b9070510f42ac
